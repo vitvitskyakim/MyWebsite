@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modern Furniture and Homeware</title>
+    <title>About Us</title>
     <script src="https://unpkg.com/htmx.org@1.7.0"></script>
   </head>
   <body>
-    <header class="header">
+    <header>
       <nav
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -16,15 +16,8 @@
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="index.header-hero.partial.html"
+        data-hx-get="about-us.header-hero.partial.html"
       ></section>
     </header>
-    <main>
-      <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.section-best-selling-items.partial.html"
-    ></section>
-    </main>
   </body>
 </html>
