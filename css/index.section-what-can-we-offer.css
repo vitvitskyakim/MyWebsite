@@ -1,0 +1,61 @@
+.what-can-we-offer {
+  margin: 115px 250px 30px 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.what-can-we-offer__text {
+  margin-right: 20px;
+}
+.what-can-we-offer__number {
+  text-align: left;
+  font-size: 11px;
+  color: var(--basic-text-color);
+  letter-spacing: 2.2px;
+  margin-bottom: 25px;
+}
+.what-can-we-offer__title {
+  color: var(--title-color);
+  font-size: 48px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.what-can-we-offer__subtitle {
+  color: var(--subtitle-color);
+  font-family: var(--font-regular);
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.what-can-we-offer__paragraph {
+  font-family: var(--font-regular);
+  color: var(--basic-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+.what-can-we-offer__icon--bedroom,
+.what-can-we-offer__icon--garden,
+.what-can-we-offer__icon--kitchen,
+.what-can-we-offer__icon--hall-furniture,
+.what-can-we-offer__icon--home-office,
+.what-can-we-offer__icon--living-room {
+  height: 50px;
+  align-items: center;
+  margin-bottom:15px;
+}
+.what-can-we-offer__icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+.what-can-we-offer__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.what-can-we-offer__title-icon {
+  text-align: center;
+  font-size: 14px;
+  color: var(--subtitle-color);
+}
